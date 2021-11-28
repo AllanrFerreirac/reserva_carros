@@ -13,6 +13,9 @@
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <div class="container-fluid" style="background-image: linear-gradient(#4169E1, #87CEEB)">
+        <div>
+            <a href="index.php" button type="submit" class="btn btn-secondary btn-sm">Inicio</button></a>
+        </div>    
         <header>
             <center><img src="imagem/carro.png" width="35%" height="30%"/></center>
         </header>
@@ -40,7 +43,7 @@
                                 </h4> 
                             </div>
                             <div class="card-body">           
-                                <button type="submit" class="btn btn-success">Reservar</button>  
+                            <a href="reservar.php" button type="submit" class="btn btn-success">Reservar</button></a>
                             </div>
                         </div>
                     </div>
