@@ -13,7 +13,7 @@ if(!$stmt){
   echo 'Erro na atualização: '. $conn->errno .' - '. $conn->error;
 }
 
-$stmt->bind_param('ddi',  $data_inicio, $data_final, $id);
+$stmt->bind_param('ddi', $data_inicio, $data_final, $id);
 $stmt->execute();
 $conn->close();
 header("Location: reservar.php#tabs-4");
