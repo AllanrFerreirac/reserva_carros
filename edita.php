@@ -47,16 +47,16 @@
                             <form action="editar.php?id=<?php echo $id; ?>" method="POST">
                                 <div class="form-group">
                                     <label>Modelo</label>
-                                    <input type="text" class="form-control" name="modelo" placeholder="Insira o Modelo" required/>
+                                    <input type="text" class="form-control" name="modelo" placeholder="Insira o Modelo" value="<?php echo $modelo; ?>" required/>
                                     <br/>
                                     <label>Placa do Carro</label>
-                                    <input type="placa" class="form-control" name="placa" placeholder="Insira a placa do carro" required/>
+                                    <input type="placa" class="form-control" name="placa" placeholder="Insira a placa do carro" value="<?php echo $placa; ?>" required/>
                                     <br/>
                                     <label>Ano do Carro</label>
-                                    <input type="number" class="form-control" name="ano" placeholder="Insira o ano do carro" required/>
+                                    <input type="number" class="form-control" name="ano" placeholder="Insira o ano do carro" value="<?php echo $ano; ?>" required/>
                                     <br/>
                                     <label>Estado</label>
-                                    <input type="text" class="form-control" name="estado" placeholder="Insira o estado" required/>
+                                    <input type="text" class="form-control" name="estado" placeholder="Insira o estado" value="<?php echo $estado; ?>" required/>
                                     <br/>
                                     <label>Selecione se está Disponível ou Indisponível</label>
                                         <select name="manutencao" class="form-control">

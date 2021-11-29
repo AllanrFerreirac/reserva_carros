@@ -19,5 +19,5 @@ if(!$stmt){
 $stmt->bind_param('ssissi', $modelo, $placa, $ano, $estado, $manutencao, $id);
 $stmt->execute();
 $conn->close();
-header("Location: cadastro.php#tabs-4");
+header("Location: cadastro.php");
 ?>

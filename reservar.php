@@ -26,7 +26,7 @@
                 </div>
         <div class="container-fluid">
             <br>
-                <div class="row justify-content-center row-cols-2 row-cols-md-1 mb-3 text-center">
+            <div class="row justify-content-center row-cols-2 row-cols-md-2 mb-3 text-center">
                         <div class="card mb-4 rounded-3 shadow-sm">
                             <div class="card-hearder py-3">
                                 <h4 class="my-0 fw-normal"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
