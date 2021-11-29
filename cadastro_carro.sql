@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 29-Nov-2021 às 18:09
+-- Tempo de geração: 29-Nov-2021 às 18:20
 -- Versão do servidor: 10.4.20-MariaDB
 -- versão do PHP: 8.0.9
 
@@ -39,6 +39,14 @@ CREATE TABLE `cadastro_carro` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Extraindo dados da tabela `cadastro_carro`
+--
+
+INSERT INTO `cadastro_carro` (`id`, `modelo`, `placa`, `ano`, `estado`, `manutencao`, `data_inicio`, `data_final`) VALUES
+(1, 'Ford', 'ABC8E848', 2008, 'Paraná', 'Disponivel', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 'Citroen', 'ABC8E848', 2010, 'RIO', 'Disponivel', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -56,7 +64,7 @@ ALTER TABLE `cadastro_carro`
 -- AUTO_INCREMENT de tabela `cadastro_carro`
 --
 ALTER TABLE `cadastro_carro`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
